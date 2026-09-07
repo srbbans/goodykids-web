@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>GoodyKids - Learn & Play</title>
+
+<meta name="description" content="Fun learning activities, games, puzzles, and educational content for kids.">
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+        background: linear-gradient(135deg, #6dd5fa, #ffffff);
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .container {
+        max-width: 500px;
+        background: white;
+        padding: 30px;
+        border-radius: 24px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+    }
+
+    .logo {
+        width: 180px;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        color: #1e88e5;
+        font-size: 2.2rem;
+        margin-bottom: 10px;
+    }
+
+    .tagline {
+        color: #ff9800;
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+
+    p {
+        color: #555;
+        line-height: 1.6;
+        margin-bottom: 25px;
+    }
+
+    .features {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-bottom: 25px;
+    }
+
+    .feature {
+        background: #f5f7ff;
+        padding: 10px 15px;
+        border-radius: 20px;
+        font-size: 14px;
+        color: #444;
+    }
+
+    .btn {
+        display: inline-block;
+        background: #4CAF50;
+        color: white;
+        text-decoration: none;
+        padding: 14px 28px;
+        border-radius: 30px;
+        font-size: 18px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .btn:hover {
+        transform: translateY(-2px);
+    }
+
+    .note {
+        margin-top: 15px;
+        color: #777;
+        font-size: 14px;
+    }
+</style>
+
+<script>
+    const playStoreUrl =
+        "https://play.google.com/store/apps/details?id=bans.goodykids";
+
+    // Redirect after 3 seconds
+    setTimeout(() => {
+        window.location.href = playStoreUrl;
+    }, 3000);
+</script>
+
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Replace with your transparent logo -->
+    <img src="logo.png" alt="GoodyKids Logo" class="logo">
+
+    <h1>GoodyKids</h1>
+    <div class="tagline">Learn & Play</div>
+
+    <p>
+        Fun educational activities, games, puzzles, and learning experiences
+        designed to help kids grow, explore, and learn while having fun.
+    </p>
+
+    <div class="features">
+        <div class="feature">📚 Learning Games</div>
+        <div class="feature">🧩 Puzzles</div>
+        <div class="feature">🎨 Creative Activities</div>
+        <div class="feature">🔤 ABC & Numbers</div>
+    </div>
+
+    <a href="https://play.google.com/store/apps/details?id=bans.goodykids"
+       class="btn">
+       Download on Google Play
+    </a>
+
+    <div class="note">
+        Redirecting to Google Play Store...
+    </div>
+
+</div>
+
+</body>
+</html>
